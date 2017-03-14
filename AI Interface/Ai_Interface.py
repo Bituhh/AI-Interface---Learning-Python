@@ -14,6 +14,7 @@ class Login:
     passwd_0 = "usr"
     usr = usr_0
     passwd = passwd_0
+    fileName = [ usr , passwd]
 
     usernameLabel = Label(rootLogin, text="Username:")
     usernameEntry = Entry(rootLogin)
