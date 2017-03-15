@@ -37,8 +37,8 @@ class Login:
             self.unpack("username")
             self.unknownError("Username")
     def username(self):
-        self.usernameLabel.grid(row=0)
-        self.usernameEntry.grid(column=1)
+        self.usernameLabel.grid(row=0, column=0)
+        self.usernameEntry.grid(row=0, column=1)
         usernameEntry = self.usernameEntry.get()
 
     def password(self):
