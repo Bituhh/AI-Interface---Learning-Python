@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bba3b97-f985-4e93-b11a-11ee1fac5eb4" name="Default" comment="" />
+    <list default="true" id="6bba3b97-f985-4e93-b11a-11ee1fac5eb4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ai_Interface.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,15 +18,15 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Ai_Interface.py" pinned="false" current-in-tab="true">
-        <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+        <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="334">
+              <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#1611#1635#0" expanded="false" />
+                <element signature="e#1628#1652#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -38,25 +42,25 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="D:/MDX/Programming/Python/AI_Interface_Learning_Python" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test/Test" />
-        <option value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test/Hello" />
-        <option value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test/Hello.py" />
-        <option value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test/List test.py" />
-        <option value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test/Test.py" />
-        <option value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py" />
+        <option value="$PROJECT_DIR$/../Test/Test" />
+        <option value="$PROJECT_DIR$/../Test/Hello" />
+        <option value="$PROJECT_DIR$/../Test/Hello.py" />
+        <option value="$PROJECT_DIR$/../Test/List test.py" />
+        <option value="$PROJECT_DIR$/../Test/Test.py" />
+        <option value="$PROJECT_DIR$/Ai_Interface.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="1376" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -74,11 +78,12 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
+              <option name="myItemId" value="AI Interface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -88,13 +93,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.23212537" />
-    <property name="last_opened_file_path" value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -109,7 +113,7 @@
       <recent name="C:\Users\Victor\PycharmProjects\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Test">
+  <component name="RunManager" selected="Python.Ai_Interface">
     <configuration default="false" name="List test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,12 +121,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Test" />
-      <option name="SCRIPT_NAME" value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test/List test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Test/List test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Ai_Interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Test" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ai_Interface.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -271,23 +292,25 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Test" />
-      <option name="SCRIPT_NAME" value="D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Test/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.Test" />
       <item index="1" class="java.lang.String" itemvalue="Python.List test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Ai_Interface" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.List test" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.Ai_Interface" />
+        <item index="1" class="java.lang.String" itemvalue="Python.List test" />
       </list>
     </recent_temporary>
   </component>
@@ -317,26 +340,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07376186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3497758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3625192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40245774" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36344755" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40245774" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -359,119 +382,141 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#1628#1652#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#1628#1652#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test/Test" />
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test/Hello" />
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/Test/Hello.py" />
+    <entry file="file://$PROJECT_DIR$/../Test/Test" />
+    <entry file="file://$PROJECT_DIR$/../Test/Hello" />
+    <entry file="file://$PROJECT_DIR$/../Test/Hello.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -486,21 +531,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/List test.py">
+    <entry file="file://$PROJECT_DIR$/List test.py" />
+    <entry file="file://$PROJECT_DIR$/Ai_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/MDX/Programming/Python/AI_Interface_Learning_Python/AI Interface/Ai_Interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="334">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1611#1635#0" expanded="false" />
+            <element signature="e#1628#1652#0" expanded="false" />
           </folding>
         </state>
       </provider>
