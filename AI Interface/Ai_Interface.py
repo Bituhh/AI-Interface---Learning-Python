@@ -6,41 +6,46 @@ import threading
 from tkinter import *
 
 
-#region loginWindowns
+# region loginWindowns
 
 class Login:
     usr_0 = "Victor"
     passwd_0 = "usr"
     usr = usr_0
-    passwd = passwd_0
-    fileName = [usr, passwd]
-    def __init__(self,master):
+    # passwd = passwd_0
+    # fileName = [usr, passwd]
 
-        self.passwd_Entry = self.passwordEntry.get()
+    def __init__(self, master):
+        self.loginFrame = Frame()
+        self.username(master)
+        # self.passwd_Entry = self.password.passwordEntry()
+        self.usr_Entry = str(self.usernameEntry.get())
 
         if self.usr_Entry == self.usr:
             self.unpack("username")
-            self.password()
-            if self.passwordEntry == self.passwd:
+            self.password(master)
+            if self.passwd_Entry == self.passwd_0:
                 print("It work's")
             else:
                 self.unpack("password")
-                self.unknownError("Password")
+                # self.unknownError("Password")
         else:
             self.unpack("username")
-            self.unknownError("Username")
+            # self.unknownError("Username")
+
     def username(self, _master):
-        self.usrFrame = Frame(_master, width=750, height=500).pack_propagate(False)
-        self.usernameLabel = Label(self.usrFrame, text="Username:", side=LEFT)
-        self.usernameEntry = Entry(self.usrFrame, side=LEFT)
+        self.usrFrame = Frame(_master).place(relx=0.5, rely=0.5, anchor="c")
+        self.usernameLabel = Label(self.usrFrame, text="Username:").pack(side=LEFT)
+        self.usernameEntry = Entry(self.usrFrame).pack(side=LEFT)
 
     def password(self, _master):
-        self.passwdFrame = Frame(_master, width=750, height=500).pack_propagate(False)
-        self.passwordLabel = Label(self.usrFrame, text="Password", side=LEFT)
-        self.passwordEntry = Entry(self.usrFrame, side=LEFT)
+        self.passwdFrame = Frame(_master, width=750, height=500).place(relx=0.5, rely=0.5, anchor="c")
+        self.passwordLabel = Label(self.passwdFrame, text="Password").pack(side=LEFT)
+        self.passwordEntry = Entry(self.passwdFrame).pack(side=LEFT)
 
-    def unknownError(self,text):
-        Label(master, text=text + " Incorrect!")
+    # def unknownError(self, text):
+    #     Label(., text=text + " Incorrect!")
+
     def unpack(self, item):
         if item == "username":
             self.usernameLabel.grid_forget()
@@ -49,13 +54,14 @@ class Login:
             self.passwordLabel.grid_forget()
             self.passwordEntry.grid_forget()
 
+
 rootLogin = Tk()
 Login(rootLogin)
 rootLogin.mainloop()
 
-#endregion
+# endregion
 
-#region interfaceWindows
+# region interfaceWindows
 # rootInterface = tk()
 # print("Welcome Back, Victor.")
 #
@@ -107,4 +113,4 @@ rootLogin.mainloop()
 # if greetings:
 #     options()
 # rootInterface.mainloop()
-#endregion
+# endregion
