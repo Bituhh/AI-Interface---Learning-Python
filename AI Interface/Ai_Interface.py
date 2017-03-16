@@ -15,16 +15,9 @@ class Login:
     passwd = passwd_0
     fileName = [usr, passwd]
     def __init__(self,master):
-        self.usrFrame = Frame(master, width=750, height=500).pack_propagate(False)
-        self.usernameLabel = Label(self.usrFrame, text="Username:", side=LEFT)
-        self.usernameEntry = Entry(self.usrFrame, side=LEFT)
-        self.usr_Entry = self.usernameEntry.get()
-        self.passwdFrame = Frame(master, width=750, height=500).pack_propagate(False)
-        self.passwordLabel = Label(self.usrFrame, text="Password", side=LEFT)
-        self.passwordEntry = Entry(self.usrFrame, side=LEFT)
+
         self.passwd_Entry = self.passwordEntry.get()
 
-        
         if self.usr_Entry == self.usr:
             self.unpack("username")
             self.password()
@@ -36,14 +29,15 @@ class Login:
         else:
             self.unpack("username")
             self.unknownError("Username")
-    def username(self):
-        self.usernameLabel.grid(row=0, column=0)
-        self.usernameEntry.grid(row=0, column=1)
-        usernameEntry = self.usernameEntry.get()
+    def username(self, _master):
+        self.usrFrame = Frame(_master, width=750, height=500).pack_propagate(False)
+        self.usernameLabel = Label(self.usrFrame, text="Username:", side=LEFT)
+        self.usernameEntry = Entry(self.usrFrame, side=LEFT)
 
-    def password(self):
-        self.passwordLabel.grid(row=0)
-        self.passwordEntry.grid(column=1)
+    def password(self, _master):
+        self.passwdFrame = Frame(_master, width=750, height=500).pack_propagate(False)
+        self.passwordLabel = Label(self.usrFrame, text="Password", side=LEFT)
+        self.passwordEntry = Entry(self.usrFrame, side=LEFT)
 
     def unknownError(self,text):
         Label(master, text=text + " Incorrect!")
