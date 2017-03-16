@@ -8,23 +8,23 @@ from tkinter import *
 
 #region loginWindowns
 
-rootLogin = Tk()
 class Login:
     usr_0 = "Victor"
     passwd_0 = "usr"
     usr = usr_0
     passwd = passwd_0
-    fileName = [ usr , passwd]
+    fileName = [usr, passwd]
+    def __init__(self,master):
+        self.usrFrame = Frame(master, width=750, height=500).pack_propagate(False)
+        self.usernameLabel = Label(self.usrFrame, text="Username:", side=LEFT)
+        self.usernameEntry = Entry(self.usrFrame, side=LEFT)
+        self.usr_Entry = self.usernameEntry.get()
+        self.passwdFrame = Frame(master, width=750, height=500).pack_propagate(False)
+        self.passwordLabel = Label(self.usrFrame, text="Password", side=LEFT)
+        self.passwordEntry = Entry(self.usrFrame, side=LEFT)
+        self.passwd_Entry = self.passwordEntry.get()
 
-    usernameLabel = Label(rootLogin, text="Username:")
-    usernameEntry = Entry(rootLogin)
-    usr_Entry = usernameEntry.get()
-    passwordLabel = Label(rootLogin, text="Password")
-    passwordEntry = Entry(rootLogin)
-    passwd_Entry = passwordEntry.get()
-
-    def __init__(self):
-        self.username()
+        
         if self.usr_Entry == self.usr:
             self.unpack("username")
             self.password()
@@ -46,7 +46,7 @@ class Login:
         self.passwordEntry.grid(column=1)
 
     def unknownError(self,text):
-        Label(rootLogin, text=text + " Incorrect!")
+        Label(master, text=text + " Incorrect!")
     def unpack(self, item):
         if item == "username":
             self.usernameLabel.grid_forget()
@@ -54,7 +54,9 @@ class Login:
         elif item == "password":
             self.passwordLabel.grid_forget()
             self.passwordEntry.grid_forget()
-Login()
+
+rootLogin = Tk()
+Login(rootLogin)
 rootLogin.mainloop()
 
 #endregion
